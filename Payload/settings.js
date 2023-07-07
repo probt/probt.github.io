@@ -1,0 +1,1 @@
+PubViewer.Document.Settings = {"appIdentifier":"C5872E3015054A53B1EDB24027251F2F","appName":"Lorenzo's Llama","backgroundColor":"#EFEEE8","facingPagesInLandscape":false,"lockOrientation":true,"restoreLatestPage":false};
