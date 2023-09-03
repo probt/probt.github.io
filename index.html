@@ -9,10 +9,10 @@
 
 <body>
 
-  <div id="player-container" style="width: 1440px; height: 992px;"></div>
+  <div id="sparky-spine-container" style="width: 1440px; height: 992px;"></div>
 
   <script>
-  new spine.SpinePlayer("player-container", {
+  new spine.SpinePlayer("sparky-spine-container", {
     jsonUrl: "/assets/powerWords-sparky-spine-import.json",
     atlasUrl: "/assets/powerWords-sparky-spine-import.atlas",
     backgroundColor: "#ff00ffff",
@@ -31,7 +31,7 @@
     },
     success: function (player) {
       player.setAnimation("idle", true);
-   },
+   }
   });
 
   </script>
