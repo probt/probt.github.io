@@ -12,7 +12,7 @@
   <div id="sparky-spine-container" style="width: 1440px; height: 992px;"></div>
 
   <script>
-  new spine.SpinePlayer("sparky-spine-container", {
+  var sparky = new spine.SpinePlayer("sparky-spine-container", {
     jsonUrl: "/assets/powerWords-sparky-spine-import.json",
     atlasUrl: "/assets/powerWords-sparky-spine-import.atlas",
     backgroundColor: "#ff00ffff",
@@ -32,6 +32,8 @@
   });
 
   </script>
+  
+  console.log(sparky);
 
 </body>
 
