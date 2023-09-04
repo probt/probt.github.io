@@ -17,7 +17,7 @@ WF.sparky = new spine.SpinePlayer("sparky-spine-container", {
     //alpha: true,
     viewport: {
       debugRender: true,
-      x: 720,
+      x: 50,
       y: 0,
       width: 1440,
       height: 992,
