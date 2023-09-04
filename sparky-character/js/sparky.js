@@ -12,7 +12,7 @@ WF.sparky = new spine.SpinePlayer("sparky-spine-container", {
     atlasUrl: "/sparky-character/assets/powerWords-sparky-spine-import.atlas",
     backgroundColor: "#72C3E6FF",
     //fullScreenBackgroundColor: "#00ff00ff",
-    //animation: "idles/wag",
+    animation: "idles/baseIdle",
     showControls: true,
     //alpha: true,
     viewport: {
