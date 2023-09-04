@@ -2,7 +2,7 @@
  * @author       Paul Roberts <paulroberts@waterford.org>
  * @copyright    2023 Waterford.org
  *
- * @file         Spine: Sparky Skeleton
+ * @file         Spine: Sparky Skeleton (Scene)
  * @version      1.0
  */
 
