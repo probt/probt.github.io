@@ -11,6 +11,6 @@ WF.play = {};
 
 WF.play.idle = function () {
 
-    WF.sparky.animationState.setAnimation(0, "idle");
+    WF.sparky.animationState.setAnimation(0, "idle", true);
 
 };
