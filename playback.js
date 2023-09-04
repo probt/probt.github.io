@@ -12,7 +12,6 @@ WF.trackEntry = {};
 
 WF.call.idleStart = function () {
 
-    WF.sparky.animationState.setAnimation(0, "idle", true);
-    return WF.trackEntry;
+    WF.trackEntry = WF.sparky.animationState.setAnimation(0, "idle", true);
 
 };
