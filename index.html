@@ -3,6 +3,9 @@
 <head>
 
 <script src="https://unpkg.com/@esotericsoftware/spine-player@4.1.37/dist/iife/spine-player.min.js"></script>
+
+<script src="/global.js"></script>
+<script src="/sparky.js"></script>
 <script src="/playback.js"></script>
 
 <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.1.37/dist/spine-player.css">
@@ -12,37 +15,6 @@
 <body>
 
   <div id="sparky-spine-container" style="width: 1440px; height: 992px;"></div>
-
-  <script>
-  WF.sparky = new spine.SpinePlayer("sparky-spine-container", {
-    jsonUrl: "/assets/powerWords-sparky-spine-import.json",
-    atlasUrl: "/assets/powerWords-sparky-spine-import.atlas",
-    // backgroundColor: "#ff00ffff",
-    //fullScreenBackgroundColor: "#00ff00ff",
-    backgroundImage: {
-      url: "assets/opening-bkg.jpg",
-      x: 0,
-      y: 0,
-      width: 1440,
-      height: 992
-    },
-    alpha: true,
-    viewport: {
-      debugRender: true,
-      x: 0,
-      y: 0,
-      width: 1440,
-      height: 992,
-      padLeft: "0%",
-      padRight: "0%",
-      padTop: "0%",
-      padBottom: "0%"
-    }
-  });
-
-  </script>
-
-  
 
 </body>
 
