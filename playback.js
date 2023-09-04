@@ -8,12 +8,30 @@
 
 
 WF.call = {};
-WF.trackEntry = {};
 
 WF.call.enterBR = function () {
 
     WF.sparky.animationState.setAnimation(0, "enter/bottomRight", false);
     WF.sparky.animationState.addAnimation(0, "idles/bottomRight", true, 0);
+
+};
+
+WF.call.enterML = function () {
+
+    WF.sparky.animationState.setAnimation(0, "enter/midLeftSmall", false);
+    WF.sparky.animationState.addAnimation(0, "idles/midLeftSmall", true, 0);
+
+};
+
+WF.call.exitBR = function () {
+
+    WF.sparky.animationState.setAnimation(0, "exit/bottomRight", false);
+
+};
+
+WF.call.exitML = function () {
+
+    WF.sparky.animationState.setAnimation(0, "exit/midLeftSmall", false);
 
 };
 
