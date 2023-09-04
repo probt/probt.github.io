@@ -33,7 +33,8 @@ WF.sparky = new spine.SpinePlayer("sparky-spine-container", {
       padBottom: "0%"
     },
     success: function (player) {
-        player.animationState.setAnimation(0, "enter/bottomRight");
-        player.animationState.addAnimation(0, "idles/bottomRight", true, 0);
+        player.setAnimation("enter/bottomRight", false);
+        // player.animationState.setAnimation(0, "enter/bottomRight");
+        // player.animationState.addAnimation(0, "idles/bottomRight", true, 0);
      }
   });
