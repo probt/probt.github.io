@@ -38,19 +38,19 @@ WF.call.exitML = function () {
 WF.call.idleStart = function (loopBool) {
 
     if (!loopBool) loopBool = true;
-    WF.trackEntry = WF.sparky.animationState.setAnimation(0, "idles/idle", loopBool);
+    WF.sparky.animationState.setAnimation(0, "idles/idle", loopBool);
 
 };
 
 WF.call.charge = function (valNum) {
 
     if (!valNum) valNum = 0;
-    WF.trackEntry = WF.sparky.animationState.setAnimation(10, "gauge/charge-" + valNum, false);
+    WF.sparky.animationState.setAnimation(10, "gauge/charge-" + valNum, false);
 
 };
 
 WF.call.wag = function () {
 
-    WF.trackEntry = WF.sparky.animationState.setAnimation(9, "idles/wag", true);
+    WF.sparky.animationState.setAnimation(9, "idles/wag", true);
 
 };
