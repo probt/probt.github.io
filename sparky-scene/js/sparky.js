@@ -8,8 +8,8 @@
 
 
 WF.sparky = new spine.SpinePlayer("sparky-spine-container", {
-    jsonUrl: "/assets/powerWords-sparky-spine-import.json",
-    atlasUrl: "/assets/powerWords-sparky-spine-import.atlas",
+    jsonUrl: "/sparky-scene/assets/powerWords-sparky-spine-import.json",
+    atlasUrl: "/sparky-scene/assets/powerWords-sparky-spine-import.atlas",
     // backgroundColor: "#ff00ffff",
     //fullScreenBackgroundColor: "#00ff00ff",
     backgroundImage: {
