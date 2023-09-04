@@ -7,6 +7,9 @@
  */
 
 
+window.WF = {};
+
+WF.play = {};
 
 WF.play.idle = function () {
 
