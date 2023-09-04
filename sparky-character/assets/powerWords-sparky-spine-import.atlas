@@ -1,127 +1,121 @@
 powerWords-sparky-spine-import.png
-size:2017,842
+size:1999,752
 filter:Linear,Linear
 pma:true
 body jet bottom
-bounds:1370,8,174,66
+bounds:1914,353,174,66
 offsets:2,2,178,70
-body jet bottom smaller
-bounds:1952,617,63,37
-offsets:2,2,67,41
-body main
-bounds:2,3,367,399
-offsets:1,1,369,401
 rotate:90
+body jet bottom smaller
+bounds:326,141,63,37
+offsets:2,2,67,41
+rotate:90
+body main
+bounds:1545,351,367,399
+offsets:1,1,369,401
 body main top
-bounds:1840,554,286,110
+bounds:1092,9,286,110
 offsets:2,2,290,114
 rotate:90
-corner-shad-half-small
-bounds:995,421,421,419
-offsets:91,0,512,512
 eye down half moon-left
-bounds:1354,160,52,52
+bounds:1846,3,52,52
 offsets:2,33,170,87
 eye down half moon-right
-bounds:1930,36,69,68
+bounds:1914,529,69,68
 offsets:99,2,170,87
 eye narrow-left
-bounds:565,20,71,31
+bounds:1023,297,71,31
 offsets:2,15,201,48
 eye narrow-right
-bounds:403,286,84,35
+bounds:326,55,84,35
 offsets:115,2,201,48
 rotate:90
 eye reg-left
-bounds:403,4,47,74
+bounds:325,206,47,74
 offsets:2,31,163,107
-rotate:90
 eye reg-right
-bounds:918,425,61,92
+bounds:1905,223,61,92
 offsets:100,2,163,107
+rotate:90
 eye up half moon-left
-bounds:1560,89,53,48
+bounds:1796,2,53,48
 offsets:2,29,169,79
 rotate:90
 eye up half moon-right
-bounds:816,13,65,66
+bounds:1914,286,65,66
 offsets:102,2,169,79
 rotate:90
 head
-bounds:2,372,444,468
+bounds:325,282,444,468
 offsets:101,5,547,475
 head-goggles
-bounds:918,146,334,273
+bounds:756,7,334,273
 offsets:2,2,338,277
 head-snout
-bounds:1418,534,420,306
+bounds:1023,330,420,306
 offsets:0,0,423,310
+rotate:90
 head-snout-nose
-bounds:816,80,185,99
+bounds:1335,12,185,99
 offsets:11,4,201,108
-rotate:90
 left arm
-bounds:1800,106,212,214
+bounds:1518,123,212,214
 offsets:0,1,212,216
-rotate:90
 left ear circle
-bounds:1611,101,154,186
+bounds:1796,57,154,186
 offsets:2,2,158,190
 rotate:90
 left ear flap
-bounds:1418,257,275,380
+bounds:374,5,275,380
 offsets:0,1,276,382
 rotate:90
 mouth oh
-bounds:1952,551,51,64
+bounds:1900,4,51,64
 offsets:2,2,55,68
+rotate:90
 mouth open
-bounds:1286,2,151,82
+bounds:1914,599,151,82
 offsets:0,1,152,83
 rotate:90
 mouth smile side
-bounds:1799,44,129,60
+bounds:1204,2,129,60
 offsets:2,2,133,64
 mouth wide open
-bounds:1113,8,171,136
+bounds:1732,213,171,136
 offsets:2,2,175,140
 neck light
-bounds:479,25,84,26
+bounds:1096,302,84,26
 offsets:2,2,88,30
 neck-ring-base
-bounds:1952,656,184,62
+bounds:1522,59,184,62
 offsets:4,4,192,70
-rotate:90
 neck-ring-top
-bounds:1370,76,188,66
+bounds:258,15,188,66
 offsets:2,2,192,70
-new-charge-base-glow
-bounds:448,519,321,545
-offsets:0,5,321,555
 rotate:90
+new-charge-base-glow
+bounds:2,205,321,545
+offsets:0,5,321,555
 new-charge-fill-base
-bounds:1354,214,205,62
+bounds:1732,6,205,62
 rotate:90
 new-charge-overlay
-bounds:448,267,250,468
+bounds:771,282,250,468
 offsets:9,7,269,481
-rotate:90
 right arm
-bounds:1800,320,212,215
+bounds:1304,113,212,215
 offsets:0,0,212,216
-rotate:90
 right ear circle
-bounds:917,3,141,194
+bounds:2,9,141,194
 offsets:2,2,145,198
-rotate:90
 right ear flap
-bounds:403,53,212,411
+bounds:1331,339,212,411
 offsets:1,1,213,412
-rotate:90
 ring top
-bounds:1254,155,264,98
+bounds:1204,64,264,98
 offsets:2,2,268,102
 rotate:90
 tail
-bounds:1418,144,191,111
+bounds:145,12,191,111
 offsets:1,1,193,113
+rotate:90
