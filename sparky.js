@@ -19,7 +19,7 @@ WF.sparky = new spine.SpinePlayer("sparky-spine-container", {
       width: 1440,
       height: 992
     },
-    showControls: true,
+    showControls: false,
     //alpha: true,
     viewport: {
       debugRender: true,
@@ -32,8 +32,8 @@ WF.sparky = new spine.SpinePlayer("sparky-spine-container", {
       padTop: "0%",
       padBottom: "0%"
     },
-    success: function (player) {
-        player.animationState.setAnimation(0, "enter/bottomRight", false);
-        player.animationState.addAnimation(0, "idles/bottomRight", true, 0);
+    success: function () {
+        WF.sparky.animationState.setAnimation(0, "enter/bottomRight", false);
+        WF.sparky.animationState.addAnimation(0, "idles/bottomRight", true, 0);
      }
   });
