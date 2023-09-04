@@ -12,7 +12,8 @@ WF.trackEntry = {};
 
 WF.call.enterBR = function () {
 
-     WF.trackEntry = WF.sparky.animationState.setAnimation(0, "enter/bottomRight", false);
+    WF.sparky.animationState.setAnimation(0, "enter/bottomRight", false);
+    WF.sparky.animationState.addAnimation(0, "idles/bottomRight", true, 0);
 
 };
 
