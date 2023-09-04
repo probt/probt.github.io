@@ -3,7 +3,7 @@
  * @copyright    2023 Waterford.org
  *
  * @file         Spine: Sparky Animation Calls
- * @version      1.0
+ * @version      1.0.1
  */
 
 
