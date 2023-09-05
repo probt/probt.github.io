@@ -16,7 +16,7 @@ WF.sparky = new spine.SpinePlayer("sparky-spine-container", {
     showControls: true,
     //alpha: true,
     backgroundImage: {
-      url: "/sparky-character/assets/opening-bkg.jpg",
+      url: "/sparky-character/assets/spine-bkg.jpg",
       x: 0,
       y: 0,
       width: 1440,
