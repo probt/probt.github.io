@@ -9,7 +9,10 @@
 
 WF.call = {};
 
-WF.call.toCome = function () {
+WF.call.ringsStart = function () {
 
+    WF.sparky.animationState.addAnimation(8, "rings/ring-1", true, 0);
+    WF.sparky.animationState.addAnimation(9, "rings/ring-2", true, 0.33);
+    WF.sparky.animationState.addAnimation(10, "rings/ring-3", true, 0.66);
 
 };
