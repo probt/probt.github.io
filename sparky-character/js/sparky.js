@@ -10,15 +10,15 @@
 WF.sparky = new spine.SpinePlayer("sparky-spine-container", {
     jsonUrl: "/sparky-character/assets/powerWords-sparky-spine-import.json",
     atlasUrl: "/sparky-character/assets/powerWords-sparky-spine-import.atlas",
-    backgroundColor: "#72C3E6FF",
+    backgroundColor: "#5e5e60ff",
     //fullScreenBackgroundColor: "#00ff00ff",
     animation: "idles/baseIdle",
     showControls: true,
     //alpha: true,
     backgroundImage: {
       url: "/sparky-character/assets/spine-bkg.jpg",
-      x: 0,
-      y: 100,
+      x: -720,
+      y: -100,
       width: 1440,
       height: 992
     },
