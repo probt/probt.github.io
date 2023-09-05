@@ -13,7 +13,7 @@ WF.sparky = new spine.SpinePlayer("sparky-spine-container", {
     // backgroundColor: "#ff00ffff",
     //fullScreenBackgroundColor: "#00ff00ff",
     backgroundImage: {
-      url: "assets/opening-bkg.jpg",
+      url: "/sparky-scene/assets/opening-bkg.jpg",
       x: 0,
       y: 0,
       width: 1440,
