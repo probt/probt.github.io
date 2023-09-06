@@ -22,7 +22,7 @@ const trackRing3 = 10;
 
 WF.call.blink = function () {
 
-    WF.sparky.animationState.addAnimation(trackEyes, "head/blink", false, 0);
+    WF.sparky.animationState.setAnimation(trackEyes, "head/blink", false, 0);
 
 };
 
