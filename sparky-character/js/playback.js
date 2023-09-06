@@ -3,51 +3,64 @@
  * @copyright    2023 Waterford.org
  *
  * @file         Spine: Sparky Animation Calls (Character)
- * @version      1.0.1
+ * @version      1.0.2
  */
 
 
 WF.call = {};
 
-/**
- * Track ref:
- * 0: body idle
- * 1: head idle
- * 2: 
- * 3: 
- * 4: 
- * 5: 
- * 6: 
- * 7: tail
- * 8: ring-1
- * 9: ring-2
- * 10: ring-3
- */
+const mixDuration = 1;
 
-WF.call.ringsStart = function () {
+// Track ref:
+const trackBody = 0;
+const trackHead = 1;
+const trackTail = 7;
+const trackRing1 = 8;
+const trackRing2 = 9;
+const trackRing3 = 10;
 
-    WF.sparky.animationState.addAnimation(8, "rings/ring-1", true, 0);
-    WF.sparky.animationState.addAnimation(9, "rings/ring-2", true, 0.33);
-    WF.sparky.animationState.addAnimation(10, "rings/ring-3", true, 0.66);
+WF.call.headLookUp = function () {
+
+    WF.sparky.animationState.addAnimation(trackHead, "head/lookUp", false, 0);
 
 };
 
-WF.call.ringsStop = function () {
+WF.call.headLookDown = function () {
 
-    WF.sparky.animationState.setEmptyAnimation(8, 0);
-    WF.sparky.animationState.setEmptyAnimation(9, 0);
-    WF.sparky.animationState.setEmptyAnimation(10, 0);
+    WF.sparky.animationState.addAnimation(trackHead, "head/lookDown", false, 0);
 
 };
 
-WF.call.wagStart = function () {
+WF.call.bodyIdle = function () {
 
-    WF.sparky.animationState.addAnimation(7, "tail/wag", true, 0);
+    if (WF.sparky.animationState.getCurrent(trackBody) === null) {
+        WF.sparky.animationState.addAnimation(trackBody, "idles/baseIdle", true, 0);
+    } else {
+        WF.sparky.animationState.setEmptyAnimation(trackBody, mixDuration);
+    }
 
 };
 
-WF.call.wagStop = function () {
+WF.call.rings = function () {
 
-    WF.sparky.animationState.setEmptyAnimation(7, 0);
+    if (WF.sparky.animationState.getCurrent(trackRing1) === null) {
+        WF.sparky.animationState.addAnimation(trackRing1, "rings/ring-1", true, 0);
+        WF.sparky.animationState.addAnimation(trackRing2, "rings/ring-2", true, 0.33);
+        WF.sparky.animationState.addAnimation(trackRing3, "rings/ring-3", true, 0.66);
+    } else {
+        WF.sparky.animationState.setEmptyAnimation(trackRing1, mixDuration);
+        WF.sparky.animationState.setEmptyAnimation(trackRing2, mixDuration);
+        WF.sparky.animationState.setEmptyAnimation(trackRing3, mixDuration);
+    }
+
+};
+
+WF.call.tailWag = function () {
+
+    if (WF.sparky.animationState.getCurrent(trackTail) === null) {
+        WF.sparky.animationState.addAnimation(trackTail, "tail/wag", true, 0);
+    } else {
+        WF.sparky.animationState.setEmptyAnimation(trackTail, mixDuration);
+    }
 
 };
