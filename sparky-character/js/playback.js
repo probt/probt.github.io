@@ -14,10 +14,17 @@ const mixDuration = 1;
 // Track ref:
 const trackBody = 0;
 const trackHead = 1;
+const trackEyes = 6;
 const trackTail = 7;
 const trackRing1 = 8;
 const trackRing2 = 9;
 const trackRing3 = 10;
+
+WF.call.blink = function () {
+
+    WF.sparky.animationState.addAnimation(trackEyes, "head/blink", false, 0);
+
+};
 
 WF.call.headLookUp = function () {
 
