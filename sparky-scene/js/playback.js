@@ -12,7 +12,7 @@ WF.call = {};
 WF.call.enterBR = function () {
 
     WF.sparky.animationState.setAnimation(0, "setup/bottomRight", false);
-    WF.sparky.animationState.addAnimation(0, "enter/bottomRight", false);
+    WF.sparky.animationState.addAnimation(0, "enter/bottomRight", false, 1);
     WF.sparky.animationState.addAnimation(0, "idles/bottomRight", true, 0);
 
 };
@@ -20,7 +20,7 @@ WF.call.enterBR = function () {
 WF.call.enterML = function () {
 
     WF.sparky.animationState.setAnimation(0, "setup/midLeftSmall", false);
-    WF.sparky.animationState.addAnimation(0, "enter/midLeftSmall", false);
+    WF.sparky.animationState.addAnimation(0, "enter/midLeftSmall", false, 1);
     WF.sparky.animationState.addAnimation(0, "idles/midLeftSmall", true, 0);
 
 };
