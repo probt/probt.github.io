@@ -3,7 +3,7 @@
  * @copyright    2023 Waterford.org
  *
  * @file         Spine: Key events for animation triggers
- * @version      1.0.0
+ * @version      1.0.2
  */
 
 console.log ("a = leftIn / s = leftOut / f = rightIn / d = rightOut");
@@ -22,13 +22,12 @@ window.onkeydown = function (e) {
 };
 
 WF.call.setStateData = function () {
-    stateData = new AnimationStateData(WF.sparky);
-    stateData.setDefaultMix(0.5);
-    stateData.setMix("exit/midLeftSmall", "setup/midLeftSmall", 0);
-    stateData.setMix("exit/midLeftSmall", "setup/bottomRight", 0);
-    stateData.setMix("exit/bottomRight", "setup/midLeftSmall", 0);
-    stateData.setMix("exit/bottomRight", "setup/bottomRight", 0);
-    state = new AnimationState(stateData);
+
+    WF.sparky.animationState.data.setMix("exit/midLeftSmall", "setup/midLeftSmall", 0);
+    WF.sparky.animationState.data.setMix("exit/midLeftSmall", "setup/bottomRight", 0);
+    WF.sparky.animationState.data.setMix("exit/bottomRight", "setup/midLeftSmall", 0);
+    WF.sparky.animationState.data.setMix("exit/bottomRight", "setup/bottomRight", 0);
+
 };
 
 WF.call.keyEvents = function (action) {
