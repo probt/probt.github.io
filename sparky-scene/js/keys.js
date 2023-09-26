@@ -23,10 +23,12 @@ window.onkeydown = function (e) {
 
 WF.call.setStateData = function () {
 
-    WF.sparky.animationState.data.setMix("exit/midLeftSmall", "setup/midLeftSmall", 0);
-    WF.sparky.animationState.data.setMix("exit/midLeftSmall", "setup/bottomRight", 0);
-    WF.sparky.animationState.data.setMix("exit/bottomRight", "setup/midLeftSmall", 0);
-    WF.sparky.animationState.data.setMix("exit/bottomRight", "setup/bottomRight", 0);
+    setTimeout(() => {
+        WF.sparky.animationState.data.setMix("exit/midLeftSmall", "setup/midLeftSmall", 0);
+        WF.sparky.animationState.data.setMix("exit/midLeftSmall", "setup/bottomRight", 0);
+        WF.sparky.animationState.data.setMix("exit/bottomRight", "setup/midLeftSmall", 0);
+        WF.sparky.animationState.data.setMix("exit/bottomRight", "setup/bottomRight", 0);
+    }, 1000);
 
 };
 
