@@ -12,7 +12,7 @@ WF.caterpillar = new spine.SpinePlayer("word-blending-caterpillar-container", {
     atlasUrl: "/word-blending-caterpillar/assets/caterpillar.atlas",
     //backgroundColor: "#5e5e60ff",
     //fullScreenBackgroundColor: "#00ff00ff",
-    //animation: "moves/new-enter-5s",
+    animation: "moves/new-enter-5s",
     skin: "circleGreen", // circleOrange
     showControls: false,
     alpha: true,
