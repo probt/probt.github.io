@@ -24,13 +24,13 @@ WF.caterpillar = new spine.SpinePlayer("word-blending-caterpillar-container", {
     // },
     viewport: {
       debugRender: true,
-      x: -720,
+      x: -960,
       y: -100,
-      width: 1440,
+      width: 1920,
       height: 992,
-      padLeft: "10%",
-      padRight: "10%",
-      padTop: "10%",
-      padBottom: "10%"
+      padLeft: "12.5%",
+      padRight: "12.5%",
+      padTop: "0%",
+      padBottom: "0%"
     }
   });

@@ -24,17 +24,16 @@ WF.background = new spine.SpinePlayer("word-blending-background-container", {
     // },
     viewport: {
       debugRender: true,
-      x: -720,
+      x: -960,
       y: -100,
-      width: 1440,
+      width: 1920,
       height: 992,
-      padLeft: "10%",
-      padRight: "10%",
-      padTop: "10%",
-      padBottom: "10%"
+      padLeft: "12.5%",
+      padRight: "12.5%",
+      padTop: "0%",
+      padBottom: "0%"
     }
   });
 
-WF.background.animationState.setAnimation(0, "leaves/all-leaves", true, 0);
-
-WF.background.animationState.setAnimation(1, "clouds/all-nine-clouds", true, 0);
+// WF.background.animationState.setAnimation(0, "leaves/all-leaves", true, 0);
+// WF.background.animationState.setAnimation(1, "clouds/all-nine-clouds", true, 0);
