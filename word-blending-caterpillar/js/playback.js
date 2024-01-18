@@ -27,15 +27,15 @@ WF.call.caterpillerEnter = function () {
 
 WF.call.caterpillerArchIn = function () {
 
-    WF.caterpillar.animationState.setAnimation(trackCaterpillar, "moves/arch-slide-in", false, 0);
-    WF.caterpillar.animationState.addAnimation(trackCaterpillar, "moves/arch-slide-idle", true, 0);
+    WF.caterpillar.animationState.setAnimation(trackCaterpillar, "arches/arch-slide-in", false, 0);
+    WF.caterpillar.animationState.addAnimation(trackCaterpillar, "arches/arch-slide-idle", true, 0);
     caterpillarState = 1;
 
 };
 
 WF.call.caterpillerArchOut = function () {
 
-    WF.caterpillar.animationState.setAnimation(trackCaterpillar, "moves/arch-slide-out", false, 0);
+    WF.caterpillar.animationState.setAnimation(trackCaterpillar, "arches/arch-slide-out", false, 0);
     WF.caterpillar.animationState.addAnimation(trackCaterpillar, "moves/new-idle", true, 0);
     caterpillarState = 0;
 
@@ -61,7 +61,7 @@ WF.call.caterpillerToggleIdle = function () {
         if ( caterpillarState === 0 ) {
             idleAnimationName = "moves/new-idle";
         } else {
-            idleAnimationName = "moves/arch-slide-idle";
+            idleAnimationName = "arches/arch-slide-idle";
         }
         WF.caterpillar.animationState.addAnimation(trackCaterpillar, idleAnimationName, true, 0);
     } else {

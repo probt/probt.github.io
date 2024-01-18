@@ -25,12 +25,12 @@ WF.caterpillar = new spine.SpinePlayer("word-blending-caterpillar-container", {
     viewport: {
       debugRender: true,
       x: -960,
-      y: -100,
+      y: 0,
       width: 1920,
       height: 992,
-      padLeft: "12.5%",
-      padRight: "12.5%",
-      padTop: "0%",
-      padBottom: "0%"
+      // padLeft: "12.5%",
+      // padRight: "12.5%",
+      // padTop: "0%",
+      // padBottom: "0%"
     }
   });
