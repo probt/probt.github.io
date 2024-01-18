@@ -70,6 +70,16 @@ WF.call.caterpillerToggleIdle = function () {
 
 };
 
+WF.call.caterpillerSwapSKin = function () {
+
+    if (WF.caterpillar.skeleton.skin.name === "circleGreen") {
+        WF.caterpillar.skeleton.setSkin("circleOrange");
+    } else {
+        WF.caterpillar.skeleton.setSkin("circleGreen");
+    }
+
+};
+
 WF.call.backgroundToggleLeaves = function () {
 
     if (WF.background.animationState.getCurrent(0) === null) {

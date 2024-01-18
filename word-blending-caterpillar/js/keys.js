@@ -6,7 +6,7 @@
  * @version      0.0.9
  */
 
-console.log ("Caterpillar: e = enter / up = arch in / down = arch out / c = celeberate / x = exit / i = toggle idle");
+console.log ("Caterpillar: e = enter / up = arch in / down = arch out / c = celeberate / x = exit / i = toggle idle / s = swap skin");
 console.log ("Background: 1 = toggle leaves / 2 = toggle clouds");
 
 window.onkeydown = function (e) {
@@ -24,6 +24,8 @@ window.onkeydown = function (e) {
         WF.call.caterpillerExit();
     } else if (code === 73) { // i
         WF.call.caterpillerToggleIdle();
+    } else if (code === 83) { // s
+        WF.call.caterpillerSwapSkin();
 
     } else if (code === 49) { // 1
         WF.call.backgroundToggleLeaves();
