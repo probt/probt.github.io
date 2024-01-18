@@ -70,7 +70,7 @@ WF.call.caterpillerToggleIdle = function () {
 
 };
 
-WF.call.caterpillerSwapSKin = function () {
+WF.call.caterpillerSwapSkin = function () {
 
     if (WF.caterpillar.skeleton.skin.name === "circleGreen") {
         WF.caterpillar.skeleton.setSkin("circleOrange");
