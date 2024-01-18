@@ -12,7 +12,7 @@ console.log ("Background: 1 = toggle leaves / 2 = toggle clouds");
 window.onkeydown = function (e) {
     var code = e.keyCode ? e.keyCode : e.which;
     //console.log(code);
-    if (code === 66) {        // e
+    if (code === 69) {        // e
         WF.call.caterpillerEnter();
     } else if (code === 38) { // up
         WF.call.caterpillerArchIn();
