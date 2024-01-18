@@ -56,16 +56,16 @@ WF.call.caterpillerExit = function () {
 
 WF.call.caterpillerToggleIdle = function () {
 
-    if (WF.caterpillar.animationState.getCurrent(trackBody) === null) {
+    if (WF.caterpillar.animationState.getCurrent(trackCaterpillar) === null) {
         var idleAnimationName;
         if ( caterpillarState === 0 ) {
             idleAnimationName = "moves/new-idle";
         } else {
             idleAnimationName = "moves/arch-slide-idle";
         }
-        WF.caterpillar.animationState.addAnimation(trackBody, idleAnimationName, true, 0);
+        WF.caterpillar.animationState.addAnimation(trackCaterpillar, idleAnimationName, true, 0);
     } else {
-        WF.caterpillar.animationState.setEmptyAnimation(trackBody, mixDuration);
+        WF.caterpillar.animationState.setEmptyAnimation(trackCaterpillar, mixDuration);
     }
 
 };

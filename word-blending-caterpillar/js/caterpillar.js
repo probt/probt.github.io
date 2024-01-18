@@ -14,7 +14,7 @@ WF.caterpillar = new spine.SpinePlayer("word-blending-caterpillar-container", {
     //fullScreenBackgroundColor: "#00ff00ff",
     //animation: "moves/new-enter-5s",
     showControls: false,
-    //alpha: true,
+    alpha: true,
     // backgroundImage: {
     //   url: "/word-blending-caterpillar/assets/spine-bkg.jpg",
     //   x: -720,
