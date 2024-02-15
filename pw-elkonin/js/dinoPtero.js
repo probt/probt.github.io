@@ -18,9 +18,9 @@ WF.dinoPtero = new spine.SpinePlayer("pw-elkonin-dino-ptero-container", {
     //alpha: true,
     backgroundImage: {
       url: "/pw-elkonin/assets/spine-bkg.jpg",
-      x: -720,
-      y: -100,
-      width: 1440,
+      x: -960,
+      y: 100,
+      width: 1920,
       height: 992
     },
     viewport: {
