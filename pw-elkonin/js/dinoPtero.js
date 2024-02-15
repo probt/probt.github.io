@@ -15,13 +15,13 @@ WF.dinoPtero = new spine.SpinePlayer("pw-elkonin-dino-ptero-container", {
     animation: "idle",
     showControls: false,
     //alpha: true,
-    backgroundImage: {
-      url: "/pw-elkonin/assets/bg-elkonin.jpg",
-      x: -960,
-      y: 0,
-      width: 1440,
-      height: 992
-    },
+    // backgroundImage: {
+    //   url: "/pw-elkonin/assets/bg-elkonin.jpg",
+    //   x: -960,
+    //   y: 0,
+    //   width: 1440,
+    //   height: 992
+    // },
     viewport: {
       debugRender: true,
       x: -960,
