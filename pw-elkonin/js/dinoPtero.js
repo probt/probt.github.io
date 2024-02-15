@@ -14,6 +14,7 @@ WF.dinoPtero = new spine.SpinePlayer("pw-elkonin-dino-ptero-container", {
     //fullScreenBackgroundColor: "#00ff00ff",
     animation: "idle",
     showControls: false,
+    premultipliedAlpha: false,
     //alpha: true,
     // backgroundImage: {
     //   url: "/pw-elkonin/assets/bg-elkonin.jpg",

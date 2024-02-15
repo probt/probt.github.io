@@ -14,6 +14,7 @@ WF.dinoTric = new spine.SpinePlayer("pw-elkonin-dino-tric-container", {
     //fullScreenBackgroundColor: "#00ff00ff",
     animation: "idle",
     showControls: false,
+    premultipliedAlpha: false,
     alpha: true,
     // backgroundImage: {
     //   url: "/pw-elkonin/assets/spine-bkg.jpg",
