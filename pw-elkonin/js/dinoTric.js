@@ -8,8 +8,8 @@
 
 
 WF.dinoTric = new spine.SpinePlayer("pw-elkonin-dino-tric-container", {
-    jsonUrl: "/pw-elkonin/assets/caterpillar.json",
-    atlasUrl: "/pw-elkonin/assets/caterpillar.atlas",
+    jsonUrl: "/pw-elkonin/assets/dinoTric.json",
+    atlasUrl: "/pw-elkonin/assets/dinoTric.atlas",
     //backgroundColor: "#5e5e60ff",
     //fullScreenBackgroundColor: "#00ff00ff",
     animation: "idle",

@@ -8,8 +8,8 @@
 
 
 WF.sparkyBody = new spine.SpinePlayer("pw-elkonin-sparky-body-container", {
-    jsonUrl: "/pw-elkonin/assets/caterpillar.json",
-    atlasUrl: "/pw-elkonin/assets/caterpillar.atlas",
+    jsonUrl: "/pw-elkonin/assets/sparkyBody.json",
+    atlasUrl: "/pw-elkonin/assets/sparkyBody.atlas",
     //backgroundColor: "#5e5e60ff",
     //fullScreenBackgroundColor: "#00ff00ff",
     animation: "idle",

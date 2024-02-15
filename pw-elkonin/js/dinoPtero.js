@@ -8,8 +8,8 @@
 
 
 WF.dinoPtero = new spine.SpinePlayer("pw-elkonin-dino-ptero-container", {
-    jsonUrl: "/pw-elkonin/assets/background.json",
-    atlasUrl: "/pw-elkonin/assets/background.atlas",
+    jsonUrl: "/pw-elkonin/assets/dinoPtero.json",
+    atlasUrl: "/pw-elkonin/assets/dinoPtero.atlas",
     //backgroundColor: "#5e5e60ff",
     //fullScreenBackgroundColor: "#00ff00ff",
     animation: "idle",
