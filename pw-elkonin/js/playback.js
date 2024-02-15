@@ -24,7 +24,7 @@ WF.call.sparkyIdle = function () {
 
 WF.call.sparkyExit = function () {
 
-    WF.sparkyHead.animationState.addAnimation(trackSparkyHead, "exit", false, 0);
-    WF.sparkyBody.animationState.addAnimation(trackSparkyBody, "exit", false, 0);
+    WF.sparkyHead.animationState.setAnimation(trackSparkyHead, "exit", false, 0);
+    WF.sparkyBody.animationState.setAnimation(trackSparkyBody, "exit", false, 0);
 
 };
