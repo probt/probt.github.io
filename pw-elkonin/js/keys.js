@@ -6,8 +6,8 @@
  * @version      0.0.1
  */
 
-console.log ("Dino-Ptero:not setup ");
-console.log ("Dino-Tric: not setup");
+console.log ("Dino-Ptero: no keys setup ");
+console.log ("Dino-Tric: no keys setup");
 console.log ("Sparky: i = idle / e = exit");
 
 window.onkeydown = function (e) {
