@@ -1,0 +1,45 @@
+sparkyBody.png
+size:1843,737
+filter:Linear,Linear
+arm left end
+bounds:1119,222,177,320
+offsets:2,2,182,324
+rotate:90
+arm left top
+bounds:1538,419,316,303
+offsets:2,2,320,307
+rotate:90
+arm right end
+bounds:1178,42,178,319
+offsets:2,2,182,323
+rotate:90
+arm right top
+bounds:801,141,316,307
+offsets:2,2,320,311
+body jet
+bounds:801,450,351,285
+body main rc gauge mask
+bounds:2,2,733,797
+rotate:90
+hand left
+bounds:1441,223,176,237
+offsets:2,2,180,241
+rotate:90
+hand right
+bounds:1499,46,175,240
+offsets:2,2,179,244
+rotate:90
+neck ball
+bounds:1741,206,211,79
+offsets:11,118,232,199
+rotate:90
+neck ring
+bounds:801,8,375,131
+offsets:2,2,380,135
+neck ring base
+bounds:1154,401,353,110
+offsets:14,13,380,135
+square-50
+bounds:1119,170,50,50
+tail
+bounds:1154,513,382,222

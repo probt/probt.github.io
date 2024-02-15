@@ -1,0 +1,37 @@
+sparkyHeadST.png
+size:1759,1570
+filter:Linear,Linear
+hST base
+bounds:2,624,895,944
+offsets:2,2,899,948
+hST eye-left
+bounds:1580,502,121,177
+offsets:2,2,125,181
+rotate:90
+hST eye-right
+bounds:1580,379,121,177
+offsets:2,2,125,181
+rotate:90
+hST goggles
+bounds:708,94,870,528
+offsets:2,6,874,536
+hST left ear base
+bounds:899,625,235,404
+offsets:2,2,239,408
+rotate:90
+hST left ear round
+bounds:899,1216,352,840
+rotate:90
+hST mouth
+bounds:1580,82,295,157
+offsets:2,2,299,161
+rotate:90
+hST nose
+bounds:2,2,704,620
+hST right ear base
+bounds:1305,625,235,404
+offsets:2,2,239,408
+rotate:90
+hST right ear round
+bounds:899,862,352,840
+rotate:90
