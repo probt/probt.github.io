@@ -9,8 +9,8 @@
 const viewportPadding = "20%";
 
 WF.crane = new spine.SpinePlayer("crane-spine-container", {
-    skeleton: "/print-concepts-crane/assets/Print_Concepts_Crane.json",
-    atlas: "/print-concepts-crane/assets/Print_Concepts_Crane.atlas",
+    jsonUrl: "/print-concepts-crane/assets/Print_Concepts_Crane.json",
+    atlasUrl: "/print-concepts-crane/assets/Print_Concepts_Crane.atlas",
     scale: 0.5,
     //backgroundColor: "#5e5e60ff",
     //fullScreenBackgroundColor: "#00ff00ff",
