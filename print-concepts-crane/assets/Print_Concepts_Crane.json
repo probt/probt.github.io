@@ -1,0 +1,331 @@
+{
+"skeleton": {
+	"hash": "wUq6NZ5YGt0",
+	"spine": "4.1.24",
+	"x": -695,
+	"y": -28,
+	"width": 1137,
+	"height": 966,
+	"images": "./crane - assets/",
+	"audio": "C:/Users/jrchambers/ownCloud - jrchambers@owncloud.waterford.org/Art Team/Reviews/JR/Activities/Print Concepts - Updates/crane - assets"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "crane", "parent": "root" },
+	{ "name": "body", "parent": "crane", "x": -7.5, "y": 135.67 },
+	{ "name": "wheelHighlights", "parent": "crane", "x": -210, "y": 97.5 },
+	{ "name": "wheelFront", "parent": "crane", "x": -202, "y": 98 },
+	{ "name": "wheelBack", "parent": "crane", "x": 178.91, "y": 106, "scaleX": 1.1, "scaleY": 1.1 },
+	{ "name": "wheelHighlights2", "parent": "crane", "x": 172.35, "y": 105.88, "scaleX": 1.1, "scaleY": 1.1 },
+	{ "name": "craneArm-1", "parent": "body", "length": 594.3, "rotation": 176.06, "x": 270.01, "y": 646.84 },
+	{ "name": "craneArm-2", "parent": "craneArm-1", "length": 686.3, "rotation": 0.53, "x": 197.8, "y": -21.02 },
+	{ "name": "craneCables", "parent": "craneArm-2", "length": 309.03, "rotation": 93.41, "x": 679.06, "y": -82.19 },
+	{ "name": "craneHook", "parent": "craneCables", "rotation": 90, "x": 368.79, "y": -0.46 },
+	{ "name": "craneCables2 - extension", "parent": "craneArm-2", "length": 309.03, "rotation": 93.41, "x": 679.06, "y": -82.19 },
+	{ "name": "craneHookTarget", "parent": "craneHook", "x": -1.54, "y": -164.91 }
+],
+"slots": [
+	{ "name": "shadow", "bone": "root", "attachment": "shadow" },
+	{ "name": "craneCables", "bone": "craneCables", "attachment": "craneCables" },
+	{ "name": "craneCables2 - extension", "bone": "craneCables2 - extension", "attachment": "craneCables" },
+	{ "name": "craneHook", "bone": "craneHook", "attachment": "craneHook" },
+	{ "name": "craneArm-2", "bone": "craneArm-2", "attachment": "craneArm-2" },
+	{ "name": "craneArm-1", "bone": "craneArm-1", "attachment": "craneArm-1" },
+	{ "name": "body", "bone": "body", "attachment": "body" },
+	{ "name": "wheel", "bone": "wheelFront", "attachment": "wheel" },
+	{ "name": "wheel2", "bone": "wheelBack", "attachment": "wheel" },
+	{ "name": "wheelHighlights", "bone": "wheelHighlights", "attachment": "wheelHighlights" },
+	{ "name": "wheelHighlights2", "bone": "wheelHighlights2", "attachment": "wheelHighlights" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"body": {
+				"body": { "y": 349.33, "width": 899, "height": 806 }
+			},
+			"craneArm-1": {
+				"craneArm-1": { "x": 259.39, "y": -11.19, "rotation": -176.06, "width": 689, "height": 219 }
+			},
+			"craneArm-2": {
+				"craneArm-2": { "x": 361.44, "y": -2.92, "rotation": -176.59, "width": 802, "height": 193 }
+			},
+			"craneCables": {
+				"craneCables": { "x": 207.54, "y": 3.34, "rotation": 90, "width": 138, "height": 360 }
+			},
+			"craneCables2 - extension": {
+				"craneCables": { "x": 207.54, "y": 3.34, "rotation": 90, "width": 138, "height": 360 }
+			},
+			"craneHook": {
+				"craneHook": { "x": 4.3, "y": 42.26, "width": 155, "height": 506 }
+			},
+			"shadow": {
+				"shadow": { "width": 826, "height": 56 }
+			},
+			"wheel": {
+				"wheel": { "width": 182, "height": 204 }
+			},
+			"wheel2": {
+				"wheel": { "width": 182, "height": 204 }
+			},
+			"wheelHighlights": {
+				"wheelHighlights": { "width": 120, "height": 181 }
+			},
+			"wheelHighlights2": {
+				"wheelHighlights": { "width": 120, "height": 181 }
+			}
+		}
+	}
+],
+"animations": {
+	"1-enter": {
+		"slots": {
+			"craneCables2 - extension": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"wheelHighlights": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0667, "value": 15, "curve": "stepped" },
+					{ "time": 0.1333, "curve": "stepped" },
+					{ "time": 0.2, "value": 15, "curve": "stepped" },
+					{ "time": 0.2667, "curve": "stepped" },
+					{ "time": 0.3333, "value": 15, "curve": "stepped" },
+					{ "time": 0.4, "curve": "stepped" },
+					{ "time": 0.4667, "value": 15, "curve": "stepped" },
+					{ "time": 0.5333 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{
+						"curve": [ 0.036, -0.26, 0.071, -0.26 ]
+					},
+					{
+						"time": 0.1333,
+						"value": -0.26,
+						"curve": [ 0.227, -0.26, 0.268, 0.19 ]
+					},
+					{
+						"time": 0.3333,
+						"value": 0.19,
+						"curve": [ 0.4, 0.19, 0.497, 0.12 ]
+					},
+					{ "time": 0.5333 }
+				],
+				"translatey": [
+					{
+						"curve": [ 0.044, 0, 0.089, 4.35 ]
+					},
+					{
+						"time": 0.1333,
+						"value": 4.35,
+						"curve": [ 0.178, 4.35, 0.222, 0 ]
+					},
+					{
+						"time": 0.2667,
+						"curve": [ 0.311, 0, 0.356, 4.35 ]
+					},
+					{
+						"time": 0.4,
+						"value": 4.35,
+						"curve": [ 0.444, 4.35, 0.489, 0 ]
+					},
+					{ "time": 0.5333 }
+				]
+			},
+			"wheelHighlights2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0667, "value": 15, "curve": "stepped" },
+					{ "time": 0.1333, "curve": "stepped" },
+					{ "time": 0.2, "value": 15, "curve": "stepped" },
+					{ "time": 0.2667, "curve": "stepped" },
+					{ "time": 0.3333, "value": 15, "curve": "stepped" },
+					{ "time": 0.4, "curve": "stepped" },
+					{ "time": 0.4667, "value": 15, "curve": "stepped" },
+					{ "time": 0.5333 }
+				]
+			},
+			"craneArm-1": {
+				"rotate": [
+					{
+						"curve": [ 0.022, -0.07, 0.156, -0.54 ]
+					},
+					{
+						"time": 0.2,
+						"value": -0.54,
+						"curve": [ 0.267, -0.54, 0.333, 0.51 ]
+					},
+					{
+						"time": 0.4,
+						"value": 0.51,
+						"curve": [ 0.444, 0.51, 0.496, 0.11 ]
+					},
+					{ "time": 0.5333 }
+				]
+			},
+			"craneCables": {
+				"rotate": [
+					{
+						"curve": [ 0.046, -0.75, 0.189, -0.97 ]
+					},
+					{
+						"time": 0.2333,
+						"value": -0.97,
+						"curve": [ 0.3, -0.97, 0.367, 0.57 ]
+					},
+					{
+						"time": 0.4333,
+						"value": 0.57,
+						"curve": [ 0.467, 0.57, 0.501, 0.5 ]
+					},
+					{ "time": 0.5333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2333, "x": -0.06, "y": 1.48 }
+				]
+			}
+		}
+	},
+	"2-idle": {
+		"bones": {
+			"wheelHighlights2": {
+				"rotate": [
+					{ "time": 0.1333 }
+				]
+			}
+		}
+	},
+	"3-hookDrop": {
+		"bones": {
+			"body": {
+				"translatey": [
+					{
+						"curve": [ 0.044, 0, 0.089, -6.83 ]
+					},
+					{
+						"time": 0.1333,
+						"value": -6.83,
+						"curve": [ 0.2, -6.83, 0.267, 4 ]
+					},
+					{
+						"time": 0.3333,
+						"value": 4,
+						"curve": [ 0.4, 4, 0.467, -3.7 ]
+					},
+					{
+						"time": 0.5333,
+						"value": -3.7,
+						"curve": [ 0.578, -3.7, 0.622, 0 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"craneArm-1": {
+				"rotate": [
+					{
+						"curve": [ 0.044, 0, 0.089, 0.71 ]
+					},
+					{
+						"time": 0.1333,
+						"value": 0.71,
+						"curve": [ 0.2, 0.71, 0.267, -1.09 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -1.09,
+						"curve": [ 0.389, -1.09, 0.444, -0.21 ]
+					},
+					{
+						"time": 0.5,
+						"value": 0.26,
+						"curve": [ 0.556, 0.73, 0.611, 0 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"craneCables": {
+				"translate": [
+					{ "time": 0.2 },
+					{ "time": 2.3333, "x": -81.82, "y": 1372.02, "curve": "stepped" },
+					{ "time": 3, "x": -81.82, "y": 1372.02 }
+				]
+			},
+			"craneCables2 - extension": {
+				"scale": [
+					{ "time": 0.2 },
+					{ "time": 2.3333, "x": 3.712 }
+				]
+			}
+		}
+	},
+	"4-hookRaise-1": {
+		"bones": {
+			"craneCables": {
+				"translate": [
+					{ "x": -81.82, "y": 1372.02 },
+					{ "time": 1.1667, "x": -29.75, "y": 498.92, "curve": "stepped" },
+					{ "time": 1.5, "x": -29.75, "y": 498.92 }
+				]
+			},
+			"craneCables2 - extension": {
+				"scale": [
+					{ "x": 3.712 },
+					{ "time": 1.1667, "x": 1.986 }
+				]
+			}
+		}
+	},
+	"5-enter-2": {
+		"bones": {
+			"wheelHighlights": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0667, "value": 15, "curve": "stepped" },
+					{ "time": 0.1333 }
+				]
+			},
+			"wheelHighlights2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0667, "value": 15, "curve": "stepped" },
+					{ "time": 0.1333 }
+				]
+			},
+			"craneCables": {
+				"translate": [
+					{ "x": -29.75, "y": 498.92 }
+				]
+			},
+			"craneCables2 - extension": {
+				"scale": [
+					{ "x": 1.986 }
+				]
+			}
+		}
+	},
+	"6-hookRaise-2": {
+		"bones": {
+			"craneCables": {
+				"translate": [
+					{ "x": -29.75, "y": 498.92 },
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"craneCables2 - extension": {
+				"scale": [
+					{ "x": 1.986 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	}
+}
+}
