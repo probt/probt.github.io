@@ -32,7 +32,7 @@ WF.crane = new spine.SpinePlayer("crane-spine-container", {
       padBottom: backgroundPadding,
     },
     viewport: {
-      debugRender: false,
+      debugRender: true,
       x: -720,
       y: -100,
       width: 1440,
