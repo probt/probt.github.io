@@ -15,7 +15,7 @@ WF.crane = new spine.SpinePlayer("crane-spine-container", {
     //fullScreenBackgroundColor: "#00ff00ff",
     animation: "1-enter",
     showControls: false,
-    //alpha: true,
+    alpha: true,
     backgroundImage: {
       url: "/print-concepts-crane/assets/spine-bkg.jpg",
       x: -720,
