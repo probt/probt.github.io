@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "QLN1HLw1/Os",
+	"hash": "zGtZe+JkBn8",
 	"spine": "4.1.24",
 	"x": -695,
 	"y": -28,
@@ -203,6 +203,15 @@
 		}
 	},
 	"3-hookDrop": {
+		"slots": {
+			"craneCables2 - extension": {
+				"alpha": [
+					{ "value": 1 },
+					{ "time": 0.1, "value": 0.9723 },
+					{ "time": 0.2, "value": 1 }
+				]
+			}
+		},
 		"bones": {
 			"body": {
 				"translatey": [
