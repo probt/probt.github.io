@@ -28,7 +28,7 @@ WF.crane = new spine.SpinePlayer("crane-spine-container", {
       padBottom: viewportPadding,
     },
     viewport: {
-      debugRender: true,
+      debugRender: false,
       x: -720,
       y: -100,
       width: 1440,
@@ -37,15 +37,15 @@ WF.crane = new spine.SpinePlayer("crane-spine-container", {
       padRight: "10%",
       padTop: "10%",
       padBottom: "10%"
-    },
-    debug: {
-      bones: true, 
-      regions: false,
-      meshes: false,
-      bounds: true,
-      paths: false,
-      clipping: false,
-      points: false,
-      hulls: false
-   }
+    }
+  //   debug: {
+  //     bones: true, 
+  //     regions: false,
+  //     meshes: false,
+  //     bounds: true,
+  //     paths: false,
+  //     clipping: false,
+  //     points: false,
+  //     hulls: false
+  //  }
   });
