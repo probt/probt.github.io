@@ -6,7 +6,15 @@
  * @version      0.0.1
  */
 
-console.log ("e = enter / i = idle / down = hookDrop / n = enter-2 / 1 = hookRaise-1 / 2 = hookRaise-2");
+
+console.table({
+    e:"enter",
+    i:"idle",
+    down:"hookDrop",
+    n:"enter-2",
+    1:"hookRaise-1",
+    2:"hookRaise-2"
+});
 
 window.onkeydown = function (e) {
     var code = e.keyCode ? e.keyCode : e.which;
