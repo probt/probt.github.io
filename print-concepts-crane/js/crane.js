@@ -6,7 +6,9 @@
  * @version      0.0.1
  */
 
-const viewportPadding = "20%";
+
+const backgroundPadding = "10%";
+const viewportPadding = "50%";
 
 WF.crane = new spine.SpinePlayer("crane-spine-container", {
     jsonUrl: "/print-concepts-crane/assets/Print_Concepts_Crane.json",
@@ -24,10 +26,10 @@ WF.crane = new spine.SpinePlayer("crane-spine-container", {
       y: -100,
       width: 1440,
       height: 992,
-      padLeft: viewportPadding,
-      padRight: viewportPadding,
-      padTop: viewportPadding,
-      padBottom: viewportPadding,
+      padLeft: backgroundPadding,
+      padRight: backgroundPadding,
+      padTop: backgroundPadding,
+      padBottom: backgroundPadding,
     },
     viewport: {
       debugRender: false,
@@ -35,10 +37,10 @@ WF.crane = new spine.SpinePlayer("crane-spine-container", {
       y: -100,
       width: 1440,
       height: 992,
-      padLeft: "10%",
-      padRight: "10%",
-      padTop: "10%",
-      padBottom: "10%"
+      padLeft:viewportPadding,
+      padRight: viewportPadding,
+      padTop: viewportPadding,
+      padBottom: viewportPadding
     }
   //   debug: {
   //     bones: true, 
