@@ -12,18 +12,28 @@ WF.call = {};
 const mixDuration = 1;
 
 // Track ref:
-const trackCrane = 0;
+const trackIdle = 0;
+const trackEnter = 1;
+const trackCrane = 2;
 
 
 WF.call.idle = function () {
 
-    WF.crane.animationState.setAnimation(trackCrane, "1-enter", false, 0);
+    if (WF.crane.animationState.getCurrent(trackIdle) === null) {
+        WF.crane.animationState.setAnimation(trackIdle, "2-idle", true, 0);
+    } else {
+        WF.crane.animationState.setEmptyAnimation(trackIdle, mixDuration);
+    }
 
 };
 
 WF.call.enter = function () {
 
-    WF.crane.animationState.setAnimation(trackCrane, "2-idle", false, 0);
+    if (WF.crane.animationState.getCurrent(trackEnter) === null) {
+        WF.crane.animationState.setAnimation(trackEnter, "1-enter", true, 0);
+    } else {
+        WF.crane.animationState.setEmptyAnimation(trackEnter, mixDuration);
+    }
 
 };
 
@@ -41,7 +51,11 @@ WF.call.hookRaiseOne = function () {
 
 WF.call.enterTwo = function () {
 
-    WF.crane.animationState.addAnimation(trackCrane, "5-enter-2", false, 0);
+    if (WF.crane.animationState.getCurrent(trackEnter) === null) {
+        WF.crane.animationState.setAnimation(trackEnter, "5-enter-2", true, 0);
+    } else {
+        WF.crane.animationState.setEmptyAnimation(trackEnter, mixDuration);
+    }
 
 };
 
