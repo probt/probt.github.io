@@ -11,10 +11,10 @@ const viewportPadding = "20%";
 WF.crane = new spine.SpinePlayer("crane-spine-container", {
     jsonUrl: "/print-concepts-crane/assets/Print_Concepts_Crane.json",
     atlasUrl: "/print-concepts-crane/assets/Print_Concepts_Crane.atlas",
-    backgroundColor: "#5e5e60ff",
+    //backgroundColor: "#5e5e60ff",
     //fullScreenBackgroundColor: "#00ff00ff",
-    animation: "2-idle",
-    showControls: true,
+    animation: "1-enter",
+    showControls: false,
     //alpha: true,
     backgroundImage: {
       url: "/print-concepts-crane/assets/spine-bkg.jpg",
@@ -40,12 +40,12 @@ WF.crane = new spine.SpinePlayer("crane-spine-container", {
     },
     debug: {
       bones: true, 
-      regions: true,
-      meshes: true,
+      regions: false,
+      meshes: false,
       bounds: true,
-      paths: true,
-      clipping: true,
-      points: true,
-      hulls: true
+      paths: false,
+      clipping: false,
+      points: false,
+      hulls: false
    }
   });
