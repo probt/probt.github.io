@@ -17,6 +17,7 @@ WF.crane = new spine.SpinePlayer("crane-spine-container", {
     animation: "1-enter",
     showControls: false,
     alpha: true,
+    premultipliedAlpha: false,
     backgroundImage: {
       url: "/print-concepts-crane/assets/spine-bkg.jpg",
       x: -720,
