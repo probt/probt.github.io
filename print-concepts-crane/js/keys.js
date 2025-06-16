@@ -6,7 +6,7 @@
  * @version      0.0.1
  */
 
-console.log("anims list");
+console.log("anims list-edit");
 
 console.table({
     e:"enter",
