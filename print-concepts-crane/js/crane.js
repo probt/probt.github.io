@@ -11,8 +11,13 @@ const backgroundPadding = "10%";
 const viewportPadding = "70%";
 
 WF.crane = new spine.SpinePlayer("crane-spine-container", {
-    jsonUrl: "/print-concepts-crane/assets/Print_Concepts_Crane.json",
-    atlasUrl: "/print-concepts-crane/assets/Print_Concepts_Crane.atlas",
+    // Original
+    //jsonUrl: "/print-concepts-crane/assets/Print_Concepts_Crane.json",
+    //atlasUrl: "/print-concepts-crane/assets/Print_Concepts_Crane.atlas",
+
+    // Scaled: 0.368
+    jsonUrl: "/print-concepts-crane/assets/Print_Concepts_Crane-0-368.json",
+    atlasUrl: "/print-concepts-crane/assets/Print_Concepts_Crane-0-368.atlas",
     //backgroundColor: "#5e5e60ff",
     //fullScreenBackgroundColor: "#00ff00ff",
     animation: "1-enter",
