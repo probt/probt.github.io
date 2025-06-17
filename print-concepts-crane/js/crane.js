@@ -9,7 +9,7 @@
 // https://en.esotericsoftware.com/spine-player
 
 const backgroundPadding = "10%";
-const viewportPadding = "85%";
+const viewportPadding = "90%";
 
 WF.crane = new spine.SpinePlayer("crane-spine-container", {
     // Original
