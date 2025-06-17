@@ -9,12 +9,12 @@
 
 WF.call = {};
 
-const mixDuration = 1;
+const mixDuration = 0.5;
 
 // Track ref:
 const trackIdle = 0;
-const trackEnter = 1;
-const trackCrane = 2;
+const trackEnter = 0;
+const trackCrane = 1;
 
 
 WF.call.idle = function () {
