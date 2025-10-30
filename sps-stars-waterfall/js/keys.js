@@ -6,7 +6,7 @@
  * @version      0.0.1
  */
 
-console.log ("Caterpillar: 1 = fall-front / 2 = fall-back / 3 = both");
+console.log ("Stars: 1 = fall-front / 2 = fall-back / 3 = both");
 
 window.onkeydown = function (e) {
 
