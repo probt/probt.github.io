@@ -1,0 +1,12 @@
+waterfall.png
+size:590,183
+filter:Linear,Linear
+assets/star-yellow-back
+bounds:2,2,194,179
+offsets:3,16,200,200
+assets/star-yellow-front
+bounds:198,2,194,179
+offsets:3,16,200,200
+assets/star-yellow-mid
+bounds:394,2,194,179
+offsets:3,16,200,200

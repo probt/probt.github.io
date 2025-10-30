@@ -1,0 +1,35 @@
+/**
+ * @author       Paul Roberts <paulroberts@waterford.org>
+ * @copyright    2025 Waterford.org
+ *
+ * @file         Spine: SPS Stars Waterfall
+ * @version      0.0.1
+ */
+
+
+WF.call = {};
+
+const mixDuration = 1;
+
+// Track ref:
+const trackStarsFront = 1;
+const trackStarsBack = 0;
+
+WF.call.starsFallFront = function () {
+
+    WF.stars.animationState.setAnimation(trackStarsFront, "fall-front", false, 0);
+
+};
+
+WF.call.starsFallBack = function () {
+
+    WF.stars.animationState.setAnimation(trackStarsBack, "fall-back", false, 0);
+
+};
+
+WF.call.starsFallBoth = function () {
+
+    WF.stars.animationState.setAnimation(trackStarsFront, "fall-front", false, 0);
+    WF.stars.animationState.setAnimation(trackStarsBack, "fall-back", false, 0);
+
+};
