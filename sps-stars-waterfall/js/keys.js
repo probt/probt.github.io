@@ -11,7 +11,7 @@ console.log ("Caterpillar: 1 = fall-front / 2 = fall-back / 3 = both");
 window.onkeydown = function (e) {
 
     //var code = e.keyCode ? e.keyCode : e.which;
-    var code = e.keycode;
+    var code = e;
     console.log(code);
 
     if (code.keycode === 49) { // 1
