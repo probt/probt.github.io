@@ -17,9 +17,9 @@ WF.stars = new spine.SpinePlayer("sps-stars-container", {
     //alpha: true,
     backgroundImage: {
       url: "/sps-stars-waterfall/assets/sps-pictures-bkg-garden.jpg",
-      x: -720,
-      y: -100,
-      width: 1440,
+      x: -960,
+      y: 0,
+      width: 1920,
       height: 992
     },
     viewport: {
