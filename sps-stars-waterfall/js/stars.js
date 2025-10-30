@@ -12,7 +12,7 @@ WF.stars = new spine.SpinePlayer("sps-stars-container", {
     atlasUrl: "/sps-stars-waterfall/assets/waterfall.atlas",
     //backgroundColor: "#5e5e60ff",
     //fullScreenBackgroundColor: "#00ff00ff",
-    //animation: "fall-front",
+    animation: "fall-front",
     showControls: false,
     //alpha: true,
     backgroundImage: {
