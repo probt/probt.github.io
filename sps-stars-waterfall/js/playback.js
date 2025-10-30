@@ -9,7 +9,7 @@
 
 WF.call = {};
 
-const mixDuration = 1;
+const mixDuration = 0; // 1
 
 // Track ref:
 const trackStarsFront = 1;
