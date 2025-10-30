@@ -14,15 +14,15 @@ window.onkeydown = function (e) {
     var code = e.keycode;
     console.log(code);
 
-    if (code === 49) { // 1
+    if (code.keycode === 49) { // 1
 
         WF.call.starsFallFront();
 
-    } else if (code === 50) { // 2
+    } else if (code.keycode === 50) { // 2
 
         WF.call.starsFallBack();
     
-    } else if (code === 51) { // 3
+    } else if (code.keycode === 51) { // 3
         
         WF.call.starsFallBoth();
     
