@@ -21,7 +21,7 @@ WF.stars = new spine.SpinePlayer("sps-stars-container", {
       y: -100,
       width: 1440,
       height: 992
-    // },
+    },
     viewport: {
       debugRender: true,
       x: -960,
