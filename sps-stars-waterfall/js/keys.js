@@ -9,8 +9,11 @@
 console.log ("Caterpillar: 1 = fall-front / 2 = fall-back / 3 = both");
 
 window.onkeydown = function (e) {
-    var code = e.keyCode ? e.keyCode : e.which;
-    //console.log(code);
+    
+    //var code = e.keyCode ? e.keyCode : e.which;
+    var code = e;
+    console.log(code);
+
     if (code === 49) { // 1
 
         WF.call.starsFallFront();
